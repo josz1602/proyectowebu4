@@ -1,0 +1,92 @@
+body {
+	margin: 0;
+	padding: 0;
+background-color: #F9EDFF;
+	font-family: Arial;
+	display: grid;
+	min-height: 100vh;
+	grid-template-rows: auto 1fr auto;
+}
+
+header {
+background-color: #000000;
+	text-align: center;
+	font-size: 50px;
+	padding: 25px 0 20px 0;
+	font-weight: bolder;
+	color: white;
+	 box-shadow: 5px 5px 5px rgba(0,0,0,0.1); /* This adds a slight shadow to the header */
+}
+
+
+h2 {
+	text-align: center;
+}
+
+footer {
+    padding: 20px;
+    border-top: 1px solid #ddd;
+    text-align: center;
+    background-color: black;
+    color:lightgrey;
+}
+
+article {
+	display: flex;
+	margin: auto;
+	font-family: new roman;
+	font-size: 35px;
+	text-align: left;
+}
+
+img {
+	border-radius: 15px;
+	margin: 0 50px 0 0;
+}
+
+iframe {
+	border-radius: 15px;
+	margin: 0 0 0 50px;
+}
+p {
+	min-width: 800px;
+	max-width: 1000px;
+	min-height: 100px;
+	max-height: 1000px;
+}
+
+
+.navbar ul{
+	list-style: none;
+	background: #2b50aa;
+	margin: 0;
+	text-align: center;
+	font-size: 35px;
+	border-radius: 10;
+	transition: all .2s ease-in;
+}
+
+.navbar li {
+	display: inline-block;
+
+}
+.navbar a {
+	text-decoration: none;
+	color: #fff;
+	width: 200px;
+	display: inline-block;
+	padding: 25px 20px;
+	font-size: 15px;
+	text-transform: uppercase;
+	font-weight: bolder;
+	text-align: center;
+}
+
+.navbar a:hover {
+	background: #1e3876;
+}
+
+.tituloh2 {
+	text-decoration: none;
+	transition: 0.2s ease-in;
+}
